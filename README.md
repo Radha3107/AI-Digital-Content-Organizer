@@ -1,70 +1,52 @@
-# 🤖 AI Based Digital Content Organizer
+<div align="center">
 
-An AI-powered digital content organization system that retrieves real-time YouTube content and automatically classifies it into meaningful categories using Machine Learning.
+# 🤖 AI DIGITAL CONTENT ORGANIZER
 
-The project combines the **YouTube Data API v3**, **TF-IDF**, **Logistic Regression**, and a **Gradio GUI** to provide an interactive content discovery and organization platform.
+### `Search. Understand. Classify. Organize.`
 
----
+An AI-powered content intelligence system that transforms real-time YouTube search results into structured, categorized digital content using **Machine Learning + NLP + API Integration**.
 
-## 📌 Project Overview
+<br/>
 
-With the rapid growth of digital content, users often need to search through a large number of videos and manually identify and organize useful content.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![YouTube API](https://img.shields.io/badge/YouTube-Data%20API%20v3-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+![Gradio](https://img.shields.io/badge/Gradio-GUI-FF4B4B?style=for-the-badge)
+![Render](https://img.shields.io/badge/Deployed-Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 
-The **AI Based Digital Content Organizer** automates this process.
+<br/>
 
-The system:
+**Real-Time Content Retrieval • NLP Classification • AI Confidence • Smart Organization • Personal Library**
 
-1. Accepts a topic from the user.
-2. Retrieves real-time YouTube videos using the YouTube Data API v3.
-3. Extracts video titles and descriptions.
-4. Converts textual information into numerical features using TF-IDF.
-5. Classifies the content using a trained Logistic Regression model.
-6. Assigns each video to a predefined category.
-7. Displays the predicted category and confidence score.
-8. Organizes videos category-wise through a Gradio interface.
-9. Allows users to save and manage videos in a personal content library.
+</div>
 
 ---
 
-## ✨ Features
+## 🧠 What is this?
 
-### 🔎 Real-Time Content Search
-Search for topics such as:
+The internet produces an enormous amount of digital content every day.
 
-- Python Programming
-- Artificial Intelligence
-- Fitness
-- Travel
-- Gaming
-- Food
-- Fashion
-- Technology
+Finding content is easy.
 
-The system retrieves real public YouTube videos based on the search query.
+**Organizing it intelligently is not.**
 
-### 🤖 AI-Based Content Classification
+The **AI Digital Content Organizer** solves this problem by combining real-time YouTube content retrieval with machine learning-based text classification.
 
-The machine learning pipeline uses:
-
-**TF-IDF → Logistic Regression → Category Prediction**
-
-The system classifies content into:
-
-- 📚 Education
-- 💻 Technology
-- 🏋️ Fitness
-- 🍔 Food
-- ✈️ Travel
-- 🎬 Entertainment
-- 👗 Fashion
-- 🎮 Gaming
-
-### 📊 Confidence Score
-
-For every classified video, the system displays the model's prediction confidence.
-
-Example:
+Instead of simply returning search results, the system:
 
 ```text
-Category: Education
-Confidence: 82.45%
+USER QUERY
+    ↓
+YOUTUBE DATA API
+    ↓
+VIDEO TITLE + DESCRIPTION
+    ↓
+TF-IDF FEATURE EXTRACTION
+    ↓
+LOGISTIC REGRESSION
+    ↓
+AI CATEGORY + CONFIDENCE
+    ↓
+CATEGORY-WISE ORGANIZATION
+    ↓
+PERSONAL CONTENT LIBRARY
